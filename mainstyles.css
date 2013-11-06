@@ -1,0 +1,123 @@
+html, body, div, a:link, a:visited, a:active, a:hover, p, form, input, h1, h3, h4, h5 {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+}
+body {
+    height: 100%
+}
+#container {
+    min-height: 110%;
+    position: relative;
+}
+
+#header {
+    height: 20px;
+    padding-top: 25px;
+    font-size: 0.75em;
+}
+#leftheader {
+    display: inline-block;
+    float: left;
+    padding-left: 58px;
+    padding-top: 3px;
+    color: #999
+}
+#rightheader {
+    display: inline-block;
+    float: right;
+    padding-right: 38px;
+    position: relative;
+    right: 0px;
+}
+#rightheader a {
+    padding-right:20px;
+    color: #369;
+}
+.lightblue {
+    color: #18afe0 !important;
+}
+#content {
+    width: 800px;
+    display: block;
+    margin: auto;
+    padding-top: 32px;
+}
+#logo {
+    margin: auto;
+    height: 39px;
+    width: 164px;
+    display: block;
+}
+h1 {
+    padding-top: 18px;
+    font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+    font-size: 3.3em;
+    text-align: center;
+    font-weight: 500;
+}
+p {
+    padding-top: 20px;
+    text-align: center;
+}
+#productbuttons {
+    width: 630px;
+    height: 245px;
+    display: block;
+    margin: 24px auto;
+    position: relative;
+}
+.prodbtn {
+    height: 245px;
+    width: 180px;
+    background: linear-gradient(to bottom, #FFF, #F0F0F0);
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+    float: left;
+}
+#campfire {
+    margin-left: 40px;
+}
+#highrise {
+    margin-left: 40px;
+}
+.contentbreak {
+    margin: auto;
+    width: 72px;
+    padding-top: 24px;
+}
+.prodbtn img {
+    height: 88px;
+    width: 105px;
+    margin-top: 20px;
+    margin-left: 37px;
+}
+h3, h4, h5 {
+    text-align: center;
+}
+h3 a:link {
+    color: #369;
+    text-decoration: underline;
+    font-size: 1.3em;
+    padding-top: 8px;
+    padding-left: 4px;
+    display: inline-block;
+}
+h4 {
+    color: #C00;
+    font-size: 0.9em;
+    padding-top: 11px;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 15px 8px 0px 8px;
+    color: #222;
+}
